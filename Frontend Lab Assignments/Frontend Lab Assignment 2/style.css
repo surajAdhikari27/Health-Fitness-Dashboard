@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    padding: 30px;
+}
+
+.container,
+.resume,
+.menu,
+.form-container,
+.login-container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e3a8a;
+}
+
+h2 {
+    color: #2563eb;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Marksheet */
+
+.student-info {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+tfoot th {
+    background-color: #1e3a8a;
+}
+
+/* Resume */
+
+.resume header {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.resume section {
+    margin-top: 20px;
+}
+
+.resume ul,
+.menu ul,
+.menu ol {
+    margin-left: 25px;
+    line-height: 2;
+}
+
+/* Restaurant */
+
+.menu {
+    max-width: 700px;
+}
+
+.menu h1 {
+    font-size: 35px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Forms */
+
+.form-container,
+.login-container {
+    max-width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 11px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.options label {
+    margin: 0 15px 0 0;
+    font-weight: normal;
+}
+
+.options input {
+    width: auto;
+}
+
+button {
+    margin-top: 25px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+#message,
+#loginMessage {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    color: #2563eb;
+}
