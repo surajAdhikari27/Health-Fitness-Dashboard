@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+
+        <form id="signupForm" novalidate>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <small id="nameError" class="error"></small>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <small id="emailError" class="error"></small>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <small id="passwordError" class="error"></small>
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" required>
+            <small id="confirmError" class="error"></small>
+
+            <button type="submit">Create Account</button>
+        </form>
+
+        <p id="message" aria-live="polite"></p>
+    </div>
+</body>
+</html>
